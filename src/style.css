@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: "Great Vibes", cursive;
+    border: none;
+    font-size: 5em;
+    background-color: white;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+#headerImg {
+    width: 100vw;
+    height: 30vh;
+}
+
+.welcome-text {
+    width: 50vw;
+    font-family: Great Vibes;
+    font-size: 2.5em;
+}
+
+.welcome-header {
+    font-family: Great Vibes;
+    font-size: 4em;
+    margin-top: 2em;
+}
+
+.menu { 
+    max-width: 600px; 
+    margin: auto; 
+    font-size: 1.2em;
+    margin-top: 5vh;
+}
+
+.category { 
+    margin-bottom: 20px; 
+}
+
+h2 { 
+    border-bottom: 2px solid #333; 
+    padding-bottom: 5px; 
+    font-family: Great Vibes;
+    font-size: 3.5em;
+}
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+li { 
+    margin: 10px 0; 
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    margin-top: 20px;
+}
+
+#contact iframe {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        font-size: 0.4rem;
+    }
+    .welcome-header{
+        font-size: 2em;
+    }
+    .welcome-text {
+        font-size: 1.4em;
+        width: 90vw;
+    }
+    .menu {
+        font-size: 0.8em;
+    }
+    .googlePhoto {
+        width: 90vw;
+        height: auto;
+        margin-left: 5vw;
+    }
+}
